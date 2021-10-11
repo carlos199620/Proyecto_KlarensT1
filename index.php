@@ -31,7 +31,7 @@
         </ul>
         <button class="open-button" onclick="openForm()">Iniciar Sesion</button>
           <div class="form-popup" id="login">
-            <form action="dashboard/index.html" class="form-container">
+            <form action="dashboard/index.php" class="form-container">
               <h1>Bienvenido</h1>
 
               <label for="user"><b>Usuario</b></label>

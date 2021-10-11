@@ -14,7 +14,7 @@
     <body class="sb-nav-fixed">
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
             <!-- Navbar Brand-->
-            <a class="navbar-brand ps-3" href="index.html">Logistica</a>
+            <a class="navbar-brand ps-3" href="index.php">Logistica</a>
             <!-- Sidebar Toggle-->
             <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
             <!-- Navbar Search-->
@@ -43,7 +43,7 @@
                     <div class="sb-sidenav-menu">
                         <div class="nav">
                             <div class="sb-sidenav-menu-heading">Informes</div>
-                            <a class="nav-link" href="index.html">
+                            <a class="nav-link" href="index.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Logistica
                             </a>
@@ -55,9 +55,9 @@
                             </a>
                             <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="crearusuarioadm.html">Crear ADMINS</a>
-                                    <a class="nav-link" href="modificarusuarioadm.html">Modificar ADMINS</a>
-                                    <a class="nav-link" href="consultausuarioadm.html">Gestion de ADMINS</a>
+                                    <a class="nav-link" href="crearusuarioadm.php">Crear ADMINS</a>
+                                    <a class="nav-link" href="modificarusuarioadm.php">Modificar ADMINS</a>
+                                    <a class="nav-link" href="consultausuarioadm.php">Gestion de ADMINS</a>
                                     
                                 </nav>
                             </div>
@@ -75,10 +75,10 @@
                                     <div class="collapse" id="pagesCollapseAuth" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
                                         <nav class="sb-sidenav-menu-nested nav">
                                             <!-- <a class="nav-link" href="login.html">Crear Usuarios</a> -->
-                                            <a class="nav-link" href="creart1.html">Crear T1</a>
-                                            <a class="nav-link" href="consultart1.html">T1's Creadas</a>
-                                            <a class="nav-link" href="modificart1.html">Modificar T1</a>
-                                            <a class="nav-link" href="eliminart1.html">Eliminar T1</a>
+                                            <a class="nav-link" href="creart1.php">Crear T1</a>
+                                            <a class="nav-link" href="consultart1.php">T1's Creadas</a>
+                                            <a class="nav-link" href="modificart1.php">Modificar T1</a>
+                                            <a class="nav-link" href="eliminart1.php">Eliminar T1</a>
                                             <!-- <a class="nav-link" href="password.html">Forgot Password</a> -->
                                         </nav>
                                     </div>
@@ -89,10 +89,10 @@
                                     <div class="collapse" id="pagesCollapseAuth" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
                                         <nav class="sb-sidenav-menu-nested nav">
                                             <!-- <a class="nav-link" href="login.html">Crear Usuarios</a> -->
-                                            <a class="nav-link" href="ingresarlegal.html">Registrar Legalizaciones</a>
-                                            <a class="nav-link" href="consultarlegal.html">Consultar Legalizaciones</a>
-                                            <a class="nav-link" href="modificarlegal.html">Modificar Legalizaciones</a>
-                                            <a class="nav-link" href="eliminarlegal.html">Eliminar Legalizaciones</a>
+                                            <a class="nav-link" href="ingresarlegal.php">Registrar Legalizaciones</a>
+                                            <a class="nav-link" href="consultarlegal.php">Consultar Legalizaciones</a>
+                                            <a class="nav-link" href="modificarlegal.php">Modificar Legalizaciones</a>
+                                            <a class="nav-link" href="eliminarlegal.php">Eliminar Legalizaciones</a>
                                             <!-- <a class="nav-link" href="password.html">Forgot Password</a> -->
                                         </nav>
                                     </div>
@@ -103,19 +103,19 @@
                                     </a>
                                     <div class="collapse" id="pagesCollapseError" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
                                         <nav class="sb-sidenav-menu-nested nav">
-                                            <a class="nav-link" href="registrovehiculo.html">Registrar Vehiculos</a>
-                                            <a class="nav-link" href="consultavehiculo.html">Consultar Vehiculos</a>
-                                            <a class="nav-link" href="asignacion.html">Asignar Vehiculos</a>
+                                            <a class="nav-link" href="registrovehiculo.php">Registrar Vehiculos</a>
+                                            <a class="nav-link" href="consultavehiculo.php">Consultar Vehiculos</a>
+                                            <a class="nav-link" href="asignacion.php">Asignar Vehiculos</a>
                                         </nav>
                                     </div>
                                 </nav>
                             </div>
                             <div class="sb-sidenav-menu-heading">Informes</div>
-                            <a class="nav-link" href="charts.html">
+                            <a class="nav-link" href="charts.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
                                 Informes de legalizacion de viaticos
                             </a>
-                            <a class="nav-link" href="tables.html">
+                            <a class="nav-link" href="tables.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                                 Informes de T1
                             </a>

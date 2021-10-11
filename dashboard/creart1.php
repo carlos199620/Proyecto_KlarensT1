@@ -41,33 +41,23 @@
                                                         <option value="PLATO">PLATO</option>
                                                         <option value="MINACOMPASS">MINACOMPASS</option>
                                                         <option value="MINASODEXO">MINASODEXO</option>
-                                                        <option value="AGUACHICA OCAÑA">AGUACHICA OCAÑA</option>
-                                                        <option value="MAICAO RIOHACHA">MAICAO RIOHACHA</option>
-                                                        <option value="MONTERIA SINCELEJO">MONTERIA SINCELEJO</option>
-                                                        <option value="SANTAMARTA CARTAGENA">SANTAMARTA CARTAGENA</option>
-                                                        <option value="MONTERIA PLATO">MONTERIA PLATO</option>
-                                                        <option value="PLATO SANJUANNEPOMUCENO">PLATO SANJUANNEPOMUCENO</option>
-                                                        <option value="SANTAMARTA BARRANQUILLA">SANTAMARTA BARRANQUILLA</option>
-                                                        <option value="CARTAGENA BARRANQUILLA">CARTAGENA BARRANQUILLA</option>
-                                                        <option value="PLATO MAGANGUE">PLATO MAGANGUE</option>
-                                                        <option value="MINASODEXO MINACOMPASS">MINASODEXO MINACOMPASS</option>
-                                                        <option value="BANCO MOMPOX">BANCO MOMPOX</option>
-                                                        <option value="MONTERIA MOMPOX">MONTERIA MOMPOX</option>
-                                                        <option value="SINCELEJO MAGANGUE">SINCELEJO MAGANGUE</option>
-                                                        <option value="RIOHACHA MINASODEXHO">RIOHACHA MINASODEXHO</option>
-                                                        <option value="MAICAO MINASODEXHO">MAICAO MINASODEXHO</option>
-                                                        <option value="RIOHACHA MINACOMPASS">RIOHACHA MINACOMPASS</option>
-                                                        <option value="MAICAO MINACOMPASS">MAICAO MINACOMPASS</option>
-                                                        <option value="SANTAMARTA MINASODEXHO">SANTAMARTA MINASODEXHO</option>
-                                                        <option value="RIOHACHA MAICAO MINASODEXO">RIOHACHA MAICAO MINASODEXO</option>
-                                                        <option value="OCAÑA CUCUTA">OCAÑA CUCUTA</option>
-                                                        <option value="AGUACHICA BUCARAMANGA">AGUACHICA BUCARAMANGA</option>
-                                                        <option value="MAICAO RIOHACHA SANTAMARTA">MAICAO RIOHACHA SANTAMARTA</option>
-                                                        <option value="PLATO CARTAGENA">PLATO CARTAGENA</option>
-                                                        <option value="CARTAGENA BARRANQUILLA SANTAMARTA">CARTAGENA BARRANQUILLA SANTAMARTA</option>
+                                                        <option value="PDVAEROPUERTO">PDVAEROPUERTO</option>
+                                                        <option value="PDVDELIKLARENS">PDVDELIKLARENS</option>
+                                                        <option value="PDVPPALVALLEDUPAR">PDVPPALVALLEDUPAR</option>
+                                                        <option value="PAE">PAE</option>
                                                     </select>
+                                                    
                                                 </div>
                                                 <div class="col-md-6">
+                                                <?php 
+                                                    // $unico = $_POST["VIAJEUNICO"];
+                                                    // $x2 =$_POST["COMPARTIDOX2"];
+                                                    // $x3 =$_POST["COMPARTIDOX3"];
+                                                    // $x4 =$_POST["COMPARTIDOX4"];
+                                                    // $x5 =$_POST["COMPARTIDOX5"];
+                                                    // $x6 =$_POST["COMPARTIDOX6"];
+                                                    
+                                                ?>
                                                     <select class="form-control" id="compartido" name="compartido">
                                                         <option value="ninguna" selected>--</option> 
                                                         <option value="VIAJEUNICO">VIAJE UNICO</option>
@@ -78,6 +68,7 @@
                                                         <option value="COMPARTIDOX6">COMPARTIDO X6</option>
                                                    
                                                     </select>
+                                                    
                                                 </div>
                                             </div>
                                             <div class="row mb-3">
