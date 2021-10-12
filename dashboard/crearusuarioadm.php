@@ -18,7 +18,7 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-7">
                                 <div class="card shadow-lg border-0 rounded-lg mt-5">
-                                    <div class="card-header"><h3 class="text-center font-weight-light my-4">Crear Usuario para T1</h3></div>
+                                    <div class="card-header"><h3 class="text-center font-weight-light my-4">Crear Usuario</h3></div>
                                     <div class="card-body">
                                         <form>
                                             <div class="row mb-3">
@@ -42,6 +42,9 @@
                                                     <option value="ninguna" selected>--</option> 
                                                     <option value="consultat1">Consultor T1 </option>
                                                     <option value="regostrat1">Registrador de T1</option>
+                                                    <option value="reglegal">Registrar Legalizacion </option>
+                                                    <option value="consultalegal">Consultar Legalizacion</option>
+                                                    <option value="gestionvehiculos">Gestion de Vehiculos</option>
                                                     <!-- <option value="consulviaticos">Consultor Viaticos</option> -->
                                                     <!-- <option value="admin vehiculos">Admin Vehiculos</option> -->
                                                   </select>
@@ -61,7 +64,7 @@
                                                 </div>
                                             </div>
                                             <div class="mt-4 mb-0">
-                                                <div class="d-grid"><a class="btn btn-primary btn-block" href="logint1.html">Crear Cuenta</a></div>
+                                                <div class="d-grid"><a class="btn btn-primary btn-block" href="index.php">Crear Cuenta</a></div>
                                             </div>
                                         </form>
                                     </div>

@@ -51,6 +51,9 @@
                                                     <option value="ninguna" selected>--</option> 
                                                     <option value="consultat1">Consultor T1 </option>
                                                     <option value="regostrat1">Registrador de T1</option>
+                                                    <option value="reglegal">Registrar Legalizacion </option>
+                                                    <option value="consultalegal">Consultar Legalizacion</option>
+                                                    <option value="gestionvehiculos">Gestion de Vehiculos</option>
                                                     <!-- <option value="consulviaticos">Consultor Viaticos</option> -->
                                                     <!-- <option value="admin vehiculos">Admin Vehiculos</option> -->
                                                   </select>

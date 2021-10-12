@@ -31,18 +31,19 @@
         </ul>
         <button class="open-button" onclick="openForm()">Iniciar Sesion</button>
           <div class="form-popup" id="login">
-            <form action="dashboard/index.php" class="form-container">
+            <form action="include/conexion.php" class="form-container" method="POST">
               <h1>Bienvenido</h1>
 
               <label for="user"><b>Usuario</b></label>
-              <input type="text" placeholder="ingrese su usuario" name="user" required>
+              <input type="text" placeholder="Ingrese su usuario" name="user" required>
 
               <label for="psw"><b>Password</b></label>
-              <input type="password" placeholder="Enter Password" name="psw" required>
+              <input type="password" placeholder="&#128272Password" name="psw" required>
 
               <button type="submit" class="btn">INGRESAR</button>
               <button type="button" class="btn cancel" onclick="closeForm()">CERRAR</button>
             </form>
+            
           </div>
       </nav>
       <header>
