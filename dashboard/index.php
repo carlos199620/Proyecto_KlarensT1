@@ -1,6 +1,12 @@
+<?php
+// session_start();
+// $variablesession = $_SESSION['user'];
+// SELECT (Nombre_usuario) FROM usuario where idUsuario='$usuario';
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -123,7 +129,15 @@
                     </div>
                     <div class="sb-sidenav-footer">
                         <div class="small">Bienvenido:</div>
-                        Logistica
+                        
+                        
+                        <?php 
+                        
+                        // $usuario = $_POST['user'];
+                        // // $_SESSION['user'] = $usuario;
+                        // echo $usuario;
+                        ?>
+                        
                     </div>
                 </nav>
             </div>
