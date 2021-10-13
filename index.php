@@ -31,7 +31,7 @@
         </ul>
         <button class="open-button" onclick="openForm()">Iniciar Sesion</button>
           <div class="form-popup" id="login">
-            <form action="include/conexion.php" class="form-container" method="POST">
+            <form action="include/validacion.php" class="form-container" method="POST">
               <h1>Bienvenido</h1>
 
               <label for="user"><b>Usuario</b></label>
