@@ -26,12 +26,20 @@
         $_SESSION ['psw'] = $filas['Password_usuario'];
         header("location: ../dashboard/index.php");
     }else 
-    if($filas ['Tipo_usuario'] == 2){ //consultor
+    if($filas ['Tipo_usuario'] == 2){ //Consultor T1, Legalizaciones y Vehiculos
        
         // se crean los inicios de secion  
         $_SESSION ['user'] = $filas['idUsuario'];
         $_SESSION ['psw'] = $filas['Password_usuario'];
-        header("location:conexion.php");
+        header("location:../dashboard/usuariosexternos/registrat1/home.php");
+
+    }else 
+    if($filas ['Tipo_usuario'] == 3){ //Legalizaciones
+       
+        // se crean los inicios de secion  
+        $_SESSION ['user'] = $filas['idUsuario'];
+        $_SESSION ['psw'] = $filas['Password_usuario'];
+        header("location:../dashboard/usuariosexternos/legalizaciones/home.php");
 
     }else{
       echo '<script>
