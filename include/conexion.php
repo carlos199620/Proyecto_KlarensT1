@@ -1,18 +1,9 @@
 <?php
-session_start();
-$usuario = $_POST['user'];
-$pass = $_POST['psw'];
-$conexion=mysqli_connect('localhost','root','','databaset1');
-$consulta="SELECT * FROM usuario where idUsuario='$usuario' and Password_usuario='$pass'";
-$res=mysqli_query($conexion,$consulta);
+$conexion = mysqli_connect ("localhost", "root", "", "databaset1");
 
-$filas=mysqli_num_rows($res);
-if ($filas>0){
-    
-    header("location:../dashboard/index.php");
-}else{
-    echo '<script language="javascript">alert("ERROR AL LOGUEARSE...");</script>';
+if (!$conexion){
+    echo 'Error al conectarse a la base de datos';
+} else {
+     echo 'Conexion a la BD Exelente';
 }
-mysqli_free_result($res);
-mysqli_close($conexion);
 ?>

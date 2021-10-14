@@ -1,7 +1,17 @@
 <?php
-// session_start();
-// $variablesession = $_SESSION['user'];
-// SELECT (Nombre_usuario) FROM usuario where idUsuario='$usuario';
+  error_reporting(0);
+include ("../include/conexion.php");
+    $ingreso = "SELECT idUsuario,Nombre_usuario,Tipo_usuario,Password_usuario FROM usuario WHERE idUsuario='$usuario' AND Password_usuario='$password'";
+// Se inicia sesión existente
+  session_start();
+  // Se valida si la sesion esta iniciada, si no lo esta redirecciona al inicio
+  if (!isset($_SESSION['user'])){
+    header('Location: ../../index.php ');
+  }
+  // Extrae el nombre de usuario de la bd y lo muestra en el dashboard
+  
+  $usuario = $_SESSION['user'];
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -133,9 +143,8 @@
                         
                         <?php 
                         
-                        // $usuario = $_POST['user'];
-                        // // $_SESSION['user'] = $usuario;
-                        // echo $usuario;
+                        echo strtoupper($usuario);
+                        
                         ?>
                         
                     </div>
