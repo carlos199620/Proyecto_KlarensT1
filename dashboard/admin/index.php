@@ -24,7 +24,7 @@ include ("../include/conexion.php");
         <meta name="author" content="" />
         <title>Logistica Lacteos del Cesar</title>
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
-        <link href="../dashboard/css/styles.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
     </head>
     <body class="sb-nav-fixed">
@@ -48,7 +48,7 @@ include ("../include/conexion.php");
                         <li><a class="dropdown-item" href="#!">Configuracion</a></li>
                         <li><a class="dropdown-item" href="#!">Actividad</a></li>
                         <li><hr class="dropdown-divider" /></li>
-                        <li><a class="dropdown-item" href="../index.php">Cerrar Sesion</a></li>
+                        <li><a class="dropdown-item" href="../../index.php">Cerrar Sesion</a></li>
                     </ul>
                 </li>
             </ul>

@@ -12,7 +12,7 @@ body {
 
 header {
   background: #111;
-  background-image: url("/img/BACKGROUND.JPEG") no-repeat center center;
+  background-image: url("img/BACKGROUND.JPEG") no-repeat center center;
 }
 
 .headline {

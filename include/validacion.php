@@ -24,7 +24,7 @@
         // se crean los inicios de sesion  
         $_SESSION ['user'] = $filas['idUsuario'];
         $_SESSION ['psw'] = $filas['Password_usuario'];
-        header("location: ../dashboard/index.php");
+        header("location: ../dashboard/admin/index.php");
     }else 
     if($filas ['Tipo_usuario'] == 2){ //Consultor T1, Legalizaciones y Vehiculos
        
@@ -40,6 +40,14 @@
         $_SESSION ['user'] = $filas['idUsuario'];
         $_SESSION ['psw'] = $filas['Password_usuario'];
         header("location:../dashboard/usuariosexternos/legalizaciones/home.php");
+
+    }else 
+    if($filas ['Tipo_usuario'] == 4){ //Vehiculo
+       
+        // se crean los inicios de secion  
+        $_SESSION ['user'] = $filas['idUsuario'];
+        $_SESSION ['psw'] = $filas['Password_usuario'];
+        header("location:../dashboard/usuariosexternos/vehiculos/home.php");
 
     }else{
       echo '<script>
