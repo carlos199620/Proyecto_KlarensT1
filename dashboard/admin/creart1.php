@@ -18,7 +18,7 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-7">
                                 <div class="card shadow-lg border-0 rounded-lg mt-5">
-                                    <div class="card-header"><h3 class="text-center font-weight-light my-4">Registro de viajes</h3></div>
+                                    <div class="card-header"><h3 class="text-center font-weight-light my-4">Registro de cargue en T1</h3></div>
                                     <div class="card-body">
                                         <form>
                                             <div class="row mb-3">
@@ -74,46 +74,43 @@
                                             <div class="row mb-3">
                                                 <div class="col-md-6">
                                                     <div class="form-floating mb-3 mb-md-0">
-                                                        <input class="form-control" id="gastosalim" type="number" placeholder="Gastos" min=1 required/>
-                                                        <label for="gastosalim">Gastos de Alimentacion</label>
+                                                        <input class="form-control" id="Unidades" type="number" placeholder="Gastos" min=1 required/>
+                                                        <label for="Unidades">Unidades Cargadas</label>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="form-floating mb-3 mb-md-0">
-                                                        <input class="form-control" id="gastoshospedaje" type="number" placeholder="Gastos" min=1 required>
-                                                        <label for="gastoshospedaje">Gastos de Hospedaje</label>
+                                                        <input class="form-control" id="Kgcargados" type="number" placeholder="Gastos" min=1 required>
+                                                        <label for="Kgcargados">KG Cargados</label>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="col-md-6">
+                                                    <div class="form-floating mb-3 mb-md-0">
+                                                        <input class="form-control" id="Costoxkg" type="number" placeholder="Gastos" min=1 required>
+                                                        <label for="Costoxkg">Costo por KG</label>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="form-floating mb-3 mb-md-0">
-                                                        <input class="form-control" id="gastostransporte" type="number" placeholder="Gastos" min=1 required>
-                                                        <label for="gastostransporte">Gastos de Transporte</label>
+                                                        <input class="form-control" id="Vrflete" type="number" placeholder="Gastos" min=1 required>
+                                                        <label for="Vrflete">Valor del Flete</label>
                                                     </div>
                                                 </div>
+                                                <hr>
                                                 <div class="col-md-6">
-                                                    <div class="form-floating mb-3 mb-md-0">
-                                                        <input class="form-control" id="gastospeajes" type="number" placeholder="Gastos" min=1 required>
-                                                        <label for="gastospeajes">Gastos de Peajes</label>
-                                                    </div>
+                                                
+                                                    <select class="form-control" id="vehiculoasig" name="vehiculoasig">
+                                                        <option value="ninguna" selected>--</option> 
+                                                        <option value="TLW153">TLW 153</option>
+                                                        <option value="TLW153">TLW 154</option>
+                                                        <option value="SZA466">SZA 466</option>
+                                                        <option value="UWS608">UWS 608</option>
+                                                        
+                                                    </select>
+                                                    
                                                 </div>
-                                                <div class="col-md-6">
-                                                    <div class="form-floating mb-3 mb-md-0">
-                                                        <input class="form-control" id="gastosmantenimiento" type="number" placeholder="Gastos" min=1 required>
-                                                        <label for="gastosmantenimiento">Gastos de Mantenimiento</label>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="form-floating mb-3 mb-md-0">
-                                                        <input class="form-control" id="gastosservicios" type="number" placeholder="Gastos" min=1 required>
-                                                        <label for="gastosservicios">Gastos de Servicios</label>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="form-floating mb-3 mb-md-0">
-                                                        <input class="form-control" id="otrosgastos" type="number" placeholder="Gastos" min=1 required>
-                                                        <label for="otrosgastos">Otros Gastos</label>
-                                                    </div>
-                                                </div>
+                                                
                                             </div>
                                             <div class="mt-4 mb-0">
                                                 <div class="d-grid"><a class="btn btn-primary btn-block" href="index.php">Guardar</a></div>
