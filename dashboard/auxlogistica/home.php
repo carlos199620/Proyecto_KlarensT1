@@ -78,9 +78,21 @@ include ("../include/conexion.php");
                                     <div class="collapse" id="pagesCollapseAuth" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
                                         <nav class="sb-sidenav-menu-nested nav">
                                             <!-- <a class="nav-link" href="login.html">Crear Usuarios</a> -->
-                                            <a class="nav-link" href="pags/crearlegal.php">Registrar Legalizaciones</a>
-                                            <a class="nav-link" href="pags/modificarlegal.php">Modificar Legalizaciones</a>
-                                            <a class="nav-link" href="pags/consultalegal.php">Consultar Legalizaciones</a>
+                                            <a class="nav-link" href="ingresarlegal.php">Registrar Legalizaciones</a>
+                                    
+                                            <a class="nav-link" href="consultarlegal.php">Consultar Legalizaciones</a>
+                                        </nav>
+                                    </div>
+                                    <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuth" aria-expanded="false" aria-controls="pagesCollapseAuth">
+                                        Registro de T1
+                                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                                    </a>
+                                    <div class="collapse" id="pagesCollapseAuth" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
+                                        <nav class="sb-sidenav-menu-nested nav">
+                                            <!-- <a class="nav-link" href="login.html">Crear Usuarios</a> -->
+                                            <a class="nav-link" href="creart1.php">Registrar T1</a>
+                                    
+                                            <a class="nav-link" href="consultart1.php">Consultar T1</a>
                                         </nav>
                                     </div>
                                 </nav>

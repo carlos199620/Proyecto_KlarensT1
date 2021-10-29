@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Register - SB Admin</title>
+        <title>Crear Vehiculo</title>
         <link href="css/styles.css" rel="stylesheet" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
     </head>
@@ -18,71 +18,62 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-7">
                                 <div class="card shadow-lg border-0 rounded-lg mt-5">
-                                    <div class="card-header"><h3 class="text-center font-weight-light my-4">Modificar Usuario Creado</h3></div>
+                                    <div class="card-header"><h3 class="text-center font-weight-light my-4">Registrar Vehiculo</h3></div>
                                     <div class="card-body">
-                                        <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
-                                            <div class="input-group">
-                                                <input class="form-control" type="text" placeholder="Buscar Usuario" aria-label="Search for..." aria-describedby="btnNavbarSearch" />
-                                                <button class="btn btn-primary" id="btnNavbarSearch" type="button"><i class="fas fa-search"></i></button>
-                                            </div>
-                                        </form>
-                                        <br>
-                                        <br>
-                                        <br>
                                         <form>
                                             <div class="row mb-3">
                                                 <div class="col-md-6">
                                                     <div class="form-floating mb-3 mb-md-0">
                                                         <input class="form-control" id="inputFirstName" type="text" placeholder="Enter your first name" required>
-                                                        <label for="inputFirstName">Modificar Nombre</label>
+                                                        <label for="inputFirstName">PLACA</label>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
-                                                    <div class="form-floating">
-                                                        <input class="form-control" id="inputLastName" type="text" placeholder="Enter your last name" required>
-                                                        <label for="inputLastName">Modificar Usuario</label>
-                                                    </div>
+                                                <div class="form-floating mb-3">
+                                                
+                                                <select class="form-control" id="usuarios" name="area">
+                                                    <option value="ninguna" selected>--</option> 
+                                                    <option value="VENTAS">VENTAS </option>
+                                                    <option value="PRODUCCION">PRODUCCION</option>
+                                                    <option value="LOGISTICA">LOGISTICA </option>
+                                                </select>
+                                            </div>
                                                 </div>
                                             </div>
                                             <div class="form-floating mb-3">
                                                 <!-- <input class="form-control" id="inputEmail" type="text" placeholder="name@example.com" />
                                                 <label for="inputEmail">Tipo de Usuariuo</label> -->
-                                                <select class="form-control" id="usuarios" name="Users">
+                                                <select class="form-control" id="usuarios" name="propietario">
                                                     <option value="ninguna" selected>--</option> 
-                                                    <option value="consultat1">Consultor T1 </option>
-                                                    <option value="regostrat1">Registrador de T1</option>
-                                                    <option value="reglegal">Registrar Legalizacion </option>
-                                                    <option value="consultalegal">Consultar Legalizacion</option>
-                                                    <option value="gestionvehiculos">Gestion de Vehiculos</option>
-                                                    <!-- <option value="consulviaticos">Consultor Viaticos</option> -->
-                                                    <!-- <option value="admin vehiculos">Admin Vehiculos</option> -->
-                                                  </select>
+                                                    <option value="KLARENS">KLARENS</option>
+                                                    <option value="TERCERO">TERCERO</option>
+                                                </select>
                                             </div>
                                             <div class="row mb-3">
                                                 <div class="col-md-6">
                                                     <div class="form-floating mb-3 mb-md-0">
-                                                        <input class="form-control" id="inputPassword" type="password" placeholder="Create a password" required>
-                                                        <label for="inputPassword">Contraseña</label>
+                                                        <input class="form-control" id="inputPassword" type="text" placeholder="Create a password" required>
+                                                        <label for="inputPassword">Tipo de Vehiculo</label>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="form-floating mb-3 mb-md-0">
-                                                        <input class="form-control" id="inputPasswordConfirm" type="password" placeholder="Confirm password"/>
-                                                        <label for="inputPasswordConfirm">Confirmar Contraseña</label>
+                                                        <input class="form-control" id="inputPasswordConfirm" type="number" placeholder="Confirm password"/>
+                                                        <label for="inputPasswordConfirm">Capacidad</label>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="mt-4 mb-0">
-                                                <div class="d-grid"><a class="btn btn-primary btn-block" href="index.php">Modificar</a></div>
+                                                <div class="d-grid"><a class="btn btn-primary btn-block" href="home.php">REGISTRAR</a></div>
                                             </div>
                                             <div class="mt-4 mb-0">
-                                                <div class="d-grid"><a class="btn btn-secondary btn-block" href="index.php">Regresar</a></div>
+                                                <div class="d-grid"><a class="btn btn-secondary btn-block" href="home.php">Regresar</a></div>
                                             </div>
                                         </form>
                                     </div>
-                                    <!-- <div class="card-footer text-center py-3">
-                                        <div class="small"><a href="logint1.html">ya tienes una cuenta? Ingresa aqui</a></div>
-                                    </div> -->
+                                    <div class="card-footer text-center py-3">
+                                        <div class="small"><a href="asignacion.php">desea asignar un vehiculo?</a></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

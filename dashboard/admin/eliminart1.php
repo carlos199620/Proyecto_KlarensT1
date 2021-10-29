@@ -49,7 +49,10 @@
                                             
                                             
                                             <div class="mt-4 mb-0">
-                                                <div class="d-grid"><a class="btn btn-danger btn-block" href="../index.php">Eliminar</a></div>
+                                                <div class="d-grid"><a class="btn btn-danger btn-block" href="index.php">Eliminar</a></div>
+                                            </div>
+                                            <div class="mt-4 mb-0">
+                                                <div class="d-grid"><a class="btn btn-secondary btn-block" href="index.php">Regresar</a></div>
                                             </div>
                                         </form>
                                     </div>

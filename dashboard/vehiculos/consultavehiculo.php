@@ -7,7 +7,7 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Register - SB Admin</title>
-        <link href="../css/styles.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
     </head>
     <body class="bg-primary">
@@ -18,55 +18,75 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-7">
                                 <div class="card shadow-lg border-0 rounded-lg mt-5">
-                                    <div class="card-header"><h3 class="text-center font-weight-light my-4">Eliminar Usuario</h3></div>
+                                    <div class="card-header"><h3 class="text-center font-weight-light my-4">Busqueda o Eliminacion de Vehiculos</h3></div>
                                     <div class="card-body">
                                         <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
                                             <div class="input-group">
-                                                <input class="form-control" type="text" placeholder="Buscar Usuario" aria-label="Search for..." aria-describedby="btnNavbarSearch" />
+                                                <input class="form-control" type="text" placeholder="Buscar Placa" aria-label="Search for..." aria-describedby="btnNavbarSearch" />
                                                 <button class="btn btn-primary" id="btnNavbarSearch" type="button"><i class="fas fa-search"></i></button>
                                             </div>
                                         </form>
                                         <br>
                                         <br>
-                                        <br>
+                                        <table id="datatablesSimple">
+                                            <thead>
+                                                <tr>
+                                                    <th>PLACA</th>
+                                                    <th>MARCA DEL VEHICULO</th>
+                                                    <th>CAPACIDAD EN TONELADAS</th>
+                                                    <th>CONDUCTOR ASIGNADO</th>                                                    
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>AAA111</td>
+                                                    <td>HYUNDAI</td>
+                                                    <td>6000</td>
+                                                    <td>CONDUCTOR A</td>                                                    
+                                                </tr>
+                                                <tr>
+                                                    <td>AAA111</td>
+                                                    <td>HYUNDAI</td>
+                                                    <td>6000</td>
+                                                    <td>CONDUCTOR B</td>                                                    
+                                                </tr>
+                                                <tr>
+                                                    <td>AAA111</td>
+                                                    <td>HYUNDAI</td>
+                                                    <td>6000</td>
+                                                    <td>CONDUCTOR C</td>                                                    
+                                                </tr>
+                                                <tr>
+                                                    <td>AAA111</td>
+                                                    <td>HYUNDAI</td>
+                                                    <td>6000</td>
+                                                    <td>CONDUCTOR D</td>                                                    
+                                                </tr>
+                                                    </tbody>
+                                                    <hr>
+                                        </table>
+                                        <hr>
                                         <form>
                                             <div class="row mb-3">
                                                 <div class="col-md-6">
                                                     <div class="form-floating mb-3 mb-md-0">
                                                         <input class="form-control" id="inputFirstName" type="text" placeholder="Enter your first name" required>
-                                                        <label for="inputFirstName">Nombre</label>
+                                                        <label for="inputFirstName">Marca del Vehiculo </label>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="form-floating">
                                                         <input class="form-control" id="inputLastName" type="text" placeholder="Enter your last name" required>
-                                                        <label for="inputLastName">Usuario</label>
+                                                        <label for="inputLastName">Capacidad del Vehiculo</label>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!-- <div class="form-floating mb-3">
-                                                <select class="form-control" id="usuarios" name="Users">
-                                                    <option value="ninguna" selected>--</option> 
-                                                    <option value="consultat1">Consultor T1 </option>
-                                                    <option value="regostrat1">Registrador de T1</option>
-                                                </select>
-                                            </div> -->
-                                            <!-- <div class="row mb-3">
-                                                <div class="col-md-6">
-                                                    <div class="form-floating mb-3 mb-md-0">
-                                                        <input class="form-control" id="inputPassword" type="password" placeholder="Create a password" required>
-                                                        <label for="inputPassword">Contraseña</label>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="form-floating mb-3 mb-md-0">
-                                                        <input class="form-control" id="inputPasswordConfirm" type="password" placeholder="Confirm password"/>
-                                                        <label for="inputPasswordConfirm">Confirmar Contraseña</label>
-                                                    </div>
-                                                </div>
-                                            </div> -->
+                                            
                                             <div class="mt-4 mb-0">
-                                                <div class="d-grid"><a class="btn btn-primary btn-block" href="../home.php">Eliminar</a></div>
+                                                <div class="d-grid"><a class="btn btn-danger btn-block" href="home.php">Eliminar</a></div>
+                                            </div>
+                                            <div class="mt-4 mb-0">
+                                                <div class="d-grid"><a class="btn btn-secondary btn-block" href="home.php">Regresar</a></div>
                                             </div>
                                         </form>
                                     </div>

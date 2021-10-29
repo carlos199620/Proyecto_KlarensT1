@@ -24,7 +24,7 @@ include ("../include/conexion.php");
         <meta name="author" content="" />
         <title>Logistica Lacteos del Cesar</title>
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
-        <link href="../../../dashboard/css/styles.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
     </head>
     <body class="sb-nav-fixed">
@@ -71,35 +71,7 @@ include ("../include/conexion.php");
                             </a>
                             <div class="collapse" id="collapsePages" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
-                                    <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuth" aria-expanded="false" aria-controls="pagesCollapseAuth">
-                                        Registros T1
-                                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-                                    </a>
-                                    <div class="collapse" id="pagesCollapseAuth" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
-                                        <nav class="sb-sidenav-menu-nested nav">
-                                            <!-- <a class="nav-link" href="login.html">Crear Usuarios</a> -->
-                                            <a class="nav-link" href="creart1.php">Crear T1</a>
-                                            <a class="nav-link" href="consultart1.php">T1's Creadas</a>
-                                            <a class="nav-link" href="modificart1.php">Modificar T1</a>
-                                            <a class="nav-link" href="eliminart1.php">Eliminar T1</a>
-                                            <!-- <a class="nav-link" href="password.html">Forgot Password</a> -->
-                                        </nav>
-                                    </div>
-                                    <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuth" aria-expanded="false" aria-controls="pagesCollapseAuth">
-                                        Registro de Legalizacions
-                                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-                                    </a>
-                                    <div class="collapse" id="pagesCollapseAuth" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
-                                        <nav class="sb-sidenav-menu-nested nav">
-                                            <!-- <a class="nav-link" href="login.html">Crear Usuarios</a> -->
-                                            <a class="nav-link" href="ingresarlegal.php">Registrar Legalizaciones</a>
-                                            <a class="nav-link" href="consultarlegal.php">Consultar Legalizaciones</a>
-                                            <a class="nav-link" href="modificarlegal.php">Modificar Legalizaciones</a>
-                                            <a class="nav-link" href="eliminarlegal.php">Eliminar Legalizaciones</a>
-                                            <!-- <a class="nav-link" href="password.html">Forgot Password</a> -->
-                                        </nav>
-                                    </div>
-                                    
+                                   
                                     <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#pagesCollapseError" aria-expanded="false" aria-controls="pagesCollapseError">
                                         Vehiculos
                                         <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>

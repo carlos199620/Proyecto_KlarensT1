@@ -26,28 +26,28 @@
         $_SESSION ['psw'] = $filas['Password_usuario'];
         header("location: ../dashboard/admin/index.php");
     }else 
-    if($filas ['Tipo_usuario'] == 2){ //Consultor T1, Legalizaciones y Vehiculos
+    if($filas ['Tipo_usuario'] == 2){ //Pasante Logistica
        
-        // se crean los inicios de secion  
+        // se crean los inicios de sesion  
         $_SESSION ['user'] = $filas['idUsuario'];
         $_SESSION ['psw'] = $filas['Password_usuario'];
-        header("location:../dashboard/usuariosexternos/registrat1/home.php");
+        header("location:../dashboard/auxlogistica/home.php");
 
     }else 
     if($filas ['Tipo_usuario'] == 3){ //Legalizaciones
        
-        // se crean los inicios de secion  
+        // se crean los inicios de sesion  
         $_SESSION ['user'] = $filas['idUsuario'];
         $_SESSION ['psw'] = $filas['Password_usuario'];
-        header("location:../dashboard/usuariosexternos/legalizaciones/home.php");
+        header("location:../dashboard/legalizacion/home.php");
 
     }else 
     if($filas ['Tipo_usuario'] == 4){ //Vehiculo
        
-        // se crean los inicios de secion  
+        // se crean los inicios de sesion  
         $_SESSION ['user'] = $filas['idUsuario'];
         $_SESSION ['psw'] = $filas['Password_usuario'];
-        header("location:../dashboard/usuariosexternos/vehiculos/home.php");
+        header("location:../dashboard/vehiculos/home.php");
 
     }else{
       echo '<script>

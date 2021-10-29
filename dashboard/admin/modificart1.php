@@ -67,11 +67,11 @@
                                             </div>
                                             
                                             <div class="mt-4 mb-0">
-                                                <div class="d-grid"><a class="btn btn-primary btn-block" href="">Modificar</a></div>
+                                                <div class="d-grid"><a class="btn btn-primary btn-block" href="index.php">Modificar</a></div>
                                             </div>
                                             <!-- <br> -->
                                             <div class="mt-4 mb-0">
-                                                <div class="d-grid"><a class="btn btn-secondary btn-block" href="../index.php">Regresar</a></div>
+                                                <div class="d-grid"><a class="btn btn-secondary btn-block" href="index.php">Regresar</a></div>
                                             </div>
                                         </form>
                                     </div>
