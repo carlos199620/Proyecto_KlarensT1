@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Register - SB Admin</title>
+        <title>Registrar T1</title>
         <link href="css/styles.css" rel="stylesheet" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
     </head>
@@ -18,11 +18,11 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-7">
                                 <div class="card shadow-lg border-0 rounded-lg mt-5">
-                                    <div class="card-header"><h3 class="text-center font-weight-light my-4">T1 REGISTRADAS</h3></div>
+                                    <div class="card-header"><h3 class="text-center font-weight-light my-4">Registro de viajes</h3></div>
                                     <div class="card-body">
-                                        <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
+                                    <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
                                             <div class="input-group">
-                                                <input class="form-control" type="text" placeholder="BUSCAR T1" aria-label="Search for..." aria-describedby="btnNavbarSearch" />
+                                                <input class="form-control" type="text" placeholder="BUSCAR Viaje" aria-label="Search for..." aria-describedby="btnNavbarSearch" />
                                                 <button class="btn btn-primary" id="btnNavbarSearch" type="button"><i class="fas fa-search"></i></button>
                                             </div>
                                         </form>
@@ -30,48 +30,64 @@
                                         <br>
                                         <br>
                                         <form>
-                                        <div class="row mb-3">
+                                            <div class="row mb-3">
                                                 <div class="col-md-6">
-                                                    <div class="form-floating mb-3 mb-md-0">
-                                                        <input class="form-control" id="Unidades" type="number" placeholder="Gastos" min=1 required/>
-                                                        <label for="Unidades">Unidades Cargadas</label>
-                                                    </div>
+                                                <div class="form-floating mb-3 mb-md-0">
+                                                        <input class="form-control" id="gastosalim" type="text" placeholder="Destino" min=1 required/>
+                                                        <label for="Destinoa">Destino</label>
+                                                    </div> 
+
                                                 </div>
-                                                <div class="col-md-6">
-                                                    <div class="form-floating mb-3 mb-md-0">
-                                                        <input class="form-control" id="Kgcargados" type="number" placeholder="Gastos" min=1 required>
-                                                        <label for="Kgcargados">KG Cargados</label>
-                                                    </div>
-                                                </div>
-                                                <hr>
-                                                <div class="col-md-6">
-                                                    <div class="form-floating mb-3 mb-md-0">
-                                                        <input class="form-control" id="Costoxkg" type="number" placeholder="Gastos" min=1 required>
-                                                        <label for="Costoxkg">Costo por KG</label>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="form-floating mb-3 mb-md-0">
-                                                        <input class="form-control" id="Vrflete" type="number" placeholder="Gastos" min=1 required>
-                                                        <label for="Vrflete">Valor del Flete</label>
-                                                    </div>
-                                                </div>
-                                                <hr>
-                                                <div class="col-md-6">
-                                                    <div class="form-floating mb-3 mb-md-0">
-                                                        <input class="form-control" id="Vehiculoasignado" type="text" placeholder="vehiculoasigando" min=1 required>
-                                                        <label for="Vehiculoasignado">Vehiculo Asignado</label>
-                                                    </div>
-                                                </div>
-                                                
                                             </div>
-                                            
-                                            <div class="mt-4 mb-0">
-                                                <div class="d-grid"><a class="btn btn-primary btn-block" href="">Modificar</a></div>
+                                            <div class="row mb-3">
+                                                <div class="col-md-6">
+                                                    <div class="form-floating mb-3 mb-md-0">
+                                                        <input class="form-control" id="gastosalim" type="number" placeholder="Gastos" min=1 required/>
+                                                        <label for="gastosalim">Gastos de Alimentacion</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-floating mb-3 mb-md-0">
+                                                        <input class="form-control" id="gastoshospedaje" type="number" placeholder="Gastos" min=1 required>
+                                                        <label for="gastoshospedaje">Gastos de Hospedaje</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-floating mb-3 mb-md-0">
+                                                        <input class="form-control" id="gastostransporte" type="number" placeholder="Gastos" min=1 required>
+                                                        <label for="gastostransporte">Gastos de Transporte</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-floating mb-3 mb-md-0">
+                                                        <input class="form-control" id="gastospeajes" type="number" placeholder="Gastos" min=1 required>
+                                                        <label for="gastospeajes">Gastos de Peajes</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-floating mb-3 mb-md-0">
+                                                        <input class="form-control" id="gastosmantenimiento" type="number" placeholder="Gastos" min=1 required>
+                                                        <label for="gastosmantenimiento">Gastos de Mantenimiento</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-floating mb-3 mb-md-0">
+                                                        <input class="form-control" id="gastosservicios" type="number" placeholder="Gastos" min=1 required>
+                                                        <label for="gastosservicios">Gastos de Servicios</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-floating mb-3 mb-md-0">
+                                                        <input class="form-control" id="otrosgastos" type="number" placeholder="Gastos" min=1 required>
+                                                        <label for="otrosgastos">Otros Gastos</label>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <!-- <br> -->
                                             <div class="mt-4 mb-0">
-                                                <div class="d-grid"><a class="btn btn-secondary btn-block" href="../index.php">Regresar</a></div>
+                                                <div class="d-grid"><a class="btn btn-danger btn-block" href="index.php"> Eliminar Legalizacion </a></div>
+                                            </div>
+                                            <div class="mt-4 mb-0">
+                                                <div class="d-grid"><a class="btn btn-secondary btn-block" href="index.php">Regresar</a></div>
                                             </div>
                                         </form>
                                     </div>
@@ -101,3 +117,5 @@
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
         <script src="js/scripts.js"></script>
+    </body>
+</html>
