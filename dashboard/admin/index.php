@@ -25,6 +25,7 @@ include ("../include/conexion.php");
         <title>Logistica Lacteos del Cesar</title>
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
+        <link rel="shortcut icon" href="icon/flutter.png" type="image/x-icon">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
     </head>
     <body class="sb-nav-fixed">

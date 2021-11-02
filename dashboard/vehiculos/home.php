@@ -23,6 +23,7 @@ include ("../include/conexion.php");
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Logistica Lacteos del Cesar</title>
+        <link rel="shortcut icon" href="icon/flutter.png" type="image/x-icon">
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>

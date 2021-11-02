@@ -8,6 +8,7 @@
         <meta name="author" content="" />
         <title>Clientes</title>
         <link href="css/styles.css" rel="stylesheet" />
+        <link rel="shortcut icon" href="icon/flutter.png" type="image/x-icon">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
     </head>
     <body class="bg-primary">
